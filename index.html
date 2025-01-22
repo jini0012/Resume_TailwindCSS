@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About JINI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .h2-title {
+          @apply mt-2 text-2xl text-red-300 font-bold;
+        }
+        .h2-title-num {
+          @apply inline-block w-8 h-8 rounded bg-red-300 text-white font-bold text-center;
+        }
+        .h3-title {
+          @apply text-xl;
+        }
+        .link {
+          @apply pl-4 text-gray-500 hover:underline hover:text-red-300;
+        }
+        .list-style {
+          @apply pl-10 list-disc;
+        }
+        .project-title {
+          @apply h3-title border-l-4 border-red-300 pl-2;
+        }
+        .project-detail {
+          @apply text-sm text-gray-500;
+        }
+        .project-link {
+          @apply project-detail hover:underline hover:text-red-300;
+        }
+        .point {
+          @apply text-violet-400 font-bold;
+        }
+      }
+    </style>
+  </head>
+  <body class="m-6 p-3">
+    <header class="lg:flex items-center border-bottom-none lg:gap-4">
+      <img
+        class="h-52 w-52 lg:w-1/4 lg:h-1/4 p-3 rounded-full"
+        src="./jini.png"
+        alt="jini 캐릭터"
+      />
+      <div class="lg:w-3/4 px-3">
+        <h1 class="font-bold text-4xl lg:text-7xl">
+          jinhui<span class="text-red-300">.ha</span>
+        </h1>
+        <p class="mt-6 text-gray-400">FE Developer</p>
+      </div>
+    </header>
+    <main class="lg:flex border-t-4 pt-2 lg:gap-4">
+      <section class="lg:w-1/4 flex-col space-y-4 lg:space-y-6">
+        <h2 class="h2-title"><span class="h2-title-num">1.</span> Details</h2>
+
+        <section>
+          <h3 class="h3-title">Contact</h3>
+          <ul>
+            <li class="link">
+              <a href="mailto:jinhui.ha1208@gmail.com" target="_blank"
+                >Email : jinhui.ha1208@gmail.com</a
+              >
+            </li>
+            <li class="link">
+              <a href="https://discordapp.com/users/977917313057706054"
+                >Discord : jinilala_</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="h3-title">Github</h3>
+          <a href="https://github.com/jini0012" target="_blank" class="link"
+            >https://github.com/jini0012</a
+          >
+        </section>
+        <section>
+          <h3 class="h3-title">FE Skills</h3>
+          <ul class="list-style">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>TailwindCSS</li>
+            <li>Styled-Components</li>
+            <li>SaSS</li>
+            <li>CSS Modules</li>
+            <li>Redux</li>
+            <li>Firebase</li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="h3-title">Etc.</h3>
+          <ul class="list-style">
+            <li>Figma</li>
+            <li>Github</li>
+            <li>Jira</li>
+            <li>Notion</li>
+            <li>Slack</li>
+          </ul>
+        </section>
+      </section>
+      <section class="lg:w-3/4 space-y-4 lg:space-y-6">
+        <h2 class="h2-title mt-6 lg:mt-2">
+          <span class="h2-title-num">2.</span> Education
+        </h2>
+
+        <section>
+          <h3 class="h3-title">이스트소프트 프론트엔드 오르미 2기 - 수료</h3>
+          <span class="project-detail">프론트엔드 개발자 양성 과정</span>
+          <ul class="project-detail">
+            <li>
+              학습 기술 : React, TypeScript, JavaScript, HTML, CSS, Webpack,
+              TDD, JQuery, HTTP/HTTPS, Sass, Redux, Firebase, Bootstrap,
+              Tailwind, Styled-components, CSS Module, Figma, Github
+            </li>
+            <li>2024.08.01 ~ 2024.12.23</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="h3-title">대학교 - 졸업</h3>
+          <ul class="project-detail">
+            <li>산업경영공학과</li>
+            <li>4.08 / 4.5</li>
+            <li>2017.03 ~ 2021.02</li>
+          </ul>
+        </section>
+        <h2 class="h2-title">
+          <span class="h2-title-num">2.</span> Project History
+        </h2>
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            Dreamer <span class="point">팀프로젝트</span>
+            <span class="project-detail">2024.11.26 ~ 2024.12.23</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point"
+                  >React, Next.js, CSS Modules, Firebase, Redux, Algolia,
+                  Vercel, Github</span
+                >
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://dreamer.today/"
+                target="_blank"
+                class="project-link"
+                >Project Link : https://dreamer.today/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/oreumi-dreamer/Dreamer"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/oreumi-dreamer/Dreamer</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">
+            프론트엔드 개발자를 꿈꾸는 4명의 Dreamer들이 흥미로운 꿈을
+            기록,공유,소통하는 공간을 제공하는
+            <span class="point">다이어리형 SNS </span>제작 프로젝트
+          </p>
+        </section>
+
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            고양이 짤 생성기 제작 프로젝트
+            <span class="project-detail">2024.10.14 ~ 2024.10.21</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point">React, JavaScript, HTML, CSS, GitHub</span>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://jini0012.github.io/cat-jjal-maker/"
+                target="_blank"
+                class="project-link"
+                >Project Link : https://jini0012.github.io/cat-jjal-maker/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/jini0012/cat-jjal-maker"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/jini0012/cat-jjal-maker</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">
+            랜덤으로 렌더링되는 고양이 사진에 원하는 문구를 넣어 짤 로 생성,
+            스크랩 할 수 있는 웹 서비스 제작 프로젝트
+          </p>
+        </section>
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            Open Market Service
+            <span class="project-detail">2024.10.14 ~ 2024.10.21</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point">JavaScript, HTML, CSS, GitHub</span>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://jini0012.github.io/Open_market_service/"
+                target="_blank"
+                class="project-link"
+                >Project Link :
+                https://jini0012.github.io/Open_market_service/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/jini0012/Open_market_service"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/jini0012/Open_market_service</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">
+            판매자/회원/비회원 UI 구분 되어 온라인으로 상품 구매/판매 가능한 웹
+            서비스 제작 프로젝트
+          </p>
+        </section>
+
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            나만의 Lo-fi 감성 페이지 제작 프로젝트
+
+            <span class="project-detail">2024.10.20 ~ 2024.10.22</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point">JavaScript, HTML, CSS, GitHub</span>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://jini0012.github.io/my_momentum.io/"
+                target="_blank"
+                class="project-link"
+                >Project Link : https://jini0012.github.io/my_momentum.io/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/jini0012/my_momentum.io"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/jini0012/my_momentum.io</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">
+            시계, 메모, 명언, 위치기반 날씨 및 인사, 예쁜 배경화면이 확인 가능한
+            나만의 Lo-fi 감성 웹 서비스 제작 프로젝트
+          </p>
+        </section>
+
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            호두 랜딩페이지 제작 프로젝트
+
+            <span class="project-detail">2024.09.03 ~ 2024.09.06</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point">JavaScript, HTML, CSS, GitHub</span>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://jini0012.github.io/Hodu-landing_page"
+                target="_blank"
+                class="project-link"
+                >Project Link : https://jini0012.github.io/Hodu-landing_page</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/jini0012/Hodu-landing_page"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/jini0012/Hodu-landing_page</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">반응형 UI를 적용한 랜딩 페이지 제작 프로젝트</p>
+        </section>
+
+        <section class="flex-col space-y-2">
+          <h3 class="project-title">
+            1만 시간의 법칙 페이지 제작 프로젝트
+
+            <span class="project-detail">2024.09.03 ~ 2024.09.06</span>
+          </h3>
+
+          <ul class="pl-3">
+            <li>
+              <p class="project-detail text-bold">
+                Skill :
+                <span class="point">JavaScript, HTML, CSS, GitHub</span>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://jini0012.github.io/10K_hours_rule/"
+                target="_blank"
+                class="project-link"
+                >Project Link : https://jini0012.github.io/10K_hours_rule/</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/jini0012/10K_hours_rule"
+                target="_blank"
+                class="project-link"
+                >Project Repository :
+                https://github.com/jini0012/10K_hours_rule</a
+              >
+            </li>
+          </ul>
+          <p class="pl-3">
+            1만 시간의 법칙에 따라 목표를 위한 시간 계산이 가능한 웹 사이트 제작
+            프로젝트
+          </p>
+        </section>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
