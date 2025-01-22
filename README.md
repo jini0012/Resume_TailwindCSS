@@ -1,6 +1,7 @@
 # Resume
 
-Tailwind CSS 복습을 위해 반응형 UI로 구현된 이력서 입니다.
+Tailwind CSS를 이용하여 반응형 UI로 구현한 이력서 입니다.
+- Tailwind CDN 사용
 
 ## 사용 언어
 
